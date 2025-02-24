@@ -1,0 +1,109 @@
+/* 기본 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 30px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 0;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+}
+
+.section {
+    margin: 30px 0;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+.section h2 {
+    color: #4a90e2;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.contact a {
+    color: #4a90e2;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* 🟦 테이블 스타일 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    overflow-x: auto;
+    display: block;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 12px;
+}
+
+/* 🟨 모바일 반응형 스타일 */
+@media screen and (max-width: 600px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    th, td {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
